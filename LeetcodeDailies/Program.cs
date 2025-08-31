@@ -1,0 +1,1 @@
+﻿LeetCodeDailies.SudokuSolver.SudokuRunner.Run();

@@ -1,0 +1,82 @@
+# Ignore build outputs and IDE cruft for .NET/VS
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild[Ll]og.*
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.vcxproj.user
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+*.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# VS Code (keep common shared files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+TestResult*
+*.trx
+*.coverage
+*.coveragexml
+
+# Database and tooling artefacts
+*.opendb
+*.mdb
+*.dbmdl
+*.jfm
+
+# Other caches/temps
+*.pidb
+*.svclog
+*.tmp
+*.temp
+*.tmp_proj
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# TFS
+$tf/
+
