@@ -1,1 +1,3 @@
-﻿LeetCodeDailies.SudokuSolver.SudokuRunner.Run();
+﻿LeetCodeDailies.MaxAveragePassRatio.MaxAveragePassRatioRunner.Run();
+
+
