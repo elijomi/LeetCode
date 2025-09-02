@@ -1,3 +1,3 @@
-﻿LeetCodeDailies.MaxAveragePassRatio.MaxAveragePassRatioRunner.Run();
+﻿LeetCodeDailies.WaysToPlacePeople.WaysToPlacePeopleRunner.Run();
 
 

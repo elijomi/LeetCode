@@ -2,7 +2,7 @@ namespace LeetCodeDailies.SudokuSolver;
 
 /// <summary>
 /// Runner class for the Sudoku Solver problem as specified by
-/// Leetcode Daily Aug 31st 2025 (https://leetcode.com/problems/sudoku-solver/description/?envType=daily-question&envId=2025-08-31)
+/// Leetcode Daily Aug 31st 2025 (https://leetcode.com/problems/sudoku-solver)
 /// </summary>
 public static class SudokuRunner
 {
