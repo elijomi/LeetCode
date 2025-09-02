@@ -1,4 +1,4 @@
-namespace LeetCodeDailies.SudokuSolver;
+namespace LeetCodeProblems.Dailies.Sudoku;
 
 /// <summary>
 /// Faster implementation of the Sudoku Solver using 2d bool arrays and backtracking

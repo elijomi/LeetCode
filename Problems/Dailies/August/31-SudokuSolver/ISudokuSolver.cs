@@ -1,4 +1,4 @@
-namespace LeetCodeDailies.SudokuSolver;
+namespace LeetCodeProblems.Dailies.Sudoku;
 
 public interface ISudokuSolver
 {

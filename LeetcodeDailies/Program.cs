@@ -1,3 +1,0 @@
-﻿LeetCodeDailies.WaysToPlacePeople.WaysToPlacePeopleRunner.Run();
-
-

@@ -1,4 +1,4 @@
-namespace LeetCodeDailies.SudokuSolver;
+namespace LeetCodeProblems.Dailies.Sudoku;
 
 /// <summary>
 /// Simple implementation of the Sudoku Solver using backtracking

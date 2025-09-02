@@ -1,4 +1,4 @@
-namespace LeetCodeDailies.MaxAveragePassRatio;
+namespace LeetCodeProblems.Dailies.MaxAveragePassRatio;
 
 public class MaxAveragePassRatioSolver
 {

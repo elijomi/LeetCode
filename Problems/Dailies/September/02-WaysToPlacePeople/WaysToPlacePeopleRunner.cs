@@ -1,4 +1,4 @@
-namespace LeetCodeDailies.WaysToPlacePeople;
+namespace LeetCodeProblems.Dailies.WaysToPlacePeople;
 
 /// <summary>
 /// Runner class for the Number of Ways to Place People I problem as specified by
