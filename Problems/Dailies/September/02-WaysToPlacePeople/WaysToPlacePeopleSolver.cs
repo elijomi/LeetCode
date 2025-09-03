@@ -51,31 +51,22 @@ public class WaysToPlacePeopleSolver
             return y[1].CompareTo(x[1]);      // tie-break: descending by [1]
         });
 
-        for (var i = 0; i < points.Length; i++)
+        for (int i = 0; i < points.Length; i++)
         {
-            var point = points[i];
+            int topY = points[i][1];
+            int maxYInRange = int.MinValue;
 
-            for (var j = i + 1; j < points.Length; j++)
+            for (int j = i + 1; j < points.Length; j++)
             {
-                var other = points[j];
+                int yj = points[j][1];
 
-                if (IsUpperLeft(point, other))
+                if (yj <= topY)     // must be lower in y to be lr corner
                 {
-                    var isValid = true;
-                    for (var k = j - 1; k >= 0; k--)
+                    if (maxYInRange < yj)
                     {
-                        var check = points[k];
-                        if (ContainsPoint(point, other, check))
-                        {
-                            isValid = false;
-                            break;
-                        }
-                    }
-
-                    if (isValid)
-                    {
-                        count++;
-                    }
+                        count++;    // no intervening point lies inside [yj, topY]
+                        maxYInRange = yj;
+                    }                        
                 }
             }
         }
