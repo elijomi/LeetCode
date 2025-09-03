@@ -28,25 +28,43 @@ public class WaysToPlacePeopleSolver
     /// Border points are considered to be contained within the rectangle. 
     /// Degenerate rectangles (same x or same y) are allowed
     /// 
-    /// Constraints:
+    /// Constraints as of Sep 2nd 2025:
     /// 2 <= n <= 50
     /// points[i].length == 2
     /// 0 <= points[i][0], points[i][1] <= 50
+    /// All points[i] are distinct.
+    /// 
+    /// Constraints as of Sep 3rd 2025:
+    /// 2 <= n <= 1000
+    /// points[i].length == 2
+    /// -109 <= points[i][0], points[i][1] <= 109
     /// All points[i] are distinct.
     /// </summary>
     public int NumberOfPairs(int[][] points)
     {
         var count = 0;
 
-        foreach (var point in points)
+        Array.Sort(points, (x, y) =>
         {
-            foreach (var other in points)
+            int cmp = x[0].CompareTo(y[0]);   // primary: ascending by [0]
+            if (cmp != 0) return cmp;
+            return y[1].CompareTo(x[1]);      // tie-break: descending by [1]
+        });
+
+        for (var i = 0; i < points.Length; i++)
+        {
+            var point = points[i];
+
+            for (var j = i + 1; j < points.Length; j++)
             {
+                var other = points[j];
+
                 if (IsUpperLeft(point, other))
                 {
                     var isValid = true;
-                    foreach (var check in points)
+                    for (var k = j - 1; k >= 0; k--)
                     {
+                        var check = points[k];
                         if (ContainsPoint(point, other, check))
                         {
                             isValid = false;
