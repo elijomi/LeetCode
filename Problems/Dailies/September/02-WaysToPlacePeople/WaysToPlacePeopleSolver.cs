@@ -47,7 +47,9 @@ public class WaysToPlacePeopleSolver
                     {
                         count++;    // no intervening point lies inside [yj, topY]
                         maxYInRange = yj;
-                    }                        
+                        
+                        if (maxYInRange == topY) break; // no further points can qualify
+                    }
                 }
             }
         }
