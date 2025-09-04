@@ -1,4 +1,5 @@
 ﻿//LeetCodeProblems.Dailies.Sudoku.SudokuRunner.Run();
 //LeetCodeProblems.Dailies.MaxAveragePassRatio.MaxAveragePassRatioRunner.Run();
 //LeetCodeProblems.Dailies.WaysToPlacePeople.WaysToPlacePeopleRunner.Run();
-LeetCodeProblems.Dailies.FindClosestPerson.FindClosestPersonRunner.Run();
+//LeetCodeProblems.Dailies.FindClosestPerson.FindClosestPersonRunner.Run();
+LeetCodeProblems.Top100Liked.LetterCombinationsOfAPhoneNumber.Runner.Run();
