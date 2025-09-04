@@ -1,3 +1,8 @@
 {
-    "dotnet.defaultSolution": "LeetCodeDailies.slnx"
+    "dotnet.defaultSolution": "LeetCodeDailies.slnx",
+    "editor.quickSuggestions": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.parameterHints.enabled": true,
+    "editor.snippetSuggestions": "none"
 }
