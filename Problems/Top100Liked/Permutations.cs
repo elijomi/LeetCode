@@ -52,26 +52,23 @@ public class Solution
     public IList<IList<int>> Permute(int[] nums)
     {
         var res = new List<IList<int>>();
-        PermuteRecursively(new HashSet<int>(nums.Length), new HashSet<int>(nums), res);
+        PermuteRecursively(nums, 0, res);
         return res;
     }
 
-    private void PermuteRecursively(HashSet<int> currentNums, HashSet<int> availableNums, IList<IList<int>> result)
+    private void PermuteRecursively(int[] nums, int startIndex, IList<IList<int>> result)
     {
-        if (availableNums.Count == 0)
+         if (startIndex == nums.Length)
         {
-            result.Add(new List<int>(currentNums));
+            result.Add(new List<int>(nums));
             return;
         }
 
-        foreach (int i in availableNums)
+        for (int i = startIndex; i < nums.Length; i++)
         {
-            var currentAvailableNums = new HashSet<int>(availableNums);
-            currentAvailableNums.Remove(i);
-
-            currentNums.Add(i);
-            PermuteRecursively(currentNums, currentAvailableNums, result);
-            currentNums.Remove(i);
+            (nums[startIndex], nums[i]) = (nums[i], nums[startIndex]);
+            PermuteRecursively(nums, startIndex + 1, result);
+            (nums[startIndex], nums[i]) = (nums[i], nums[startIndex]);
         }
     }
 }
