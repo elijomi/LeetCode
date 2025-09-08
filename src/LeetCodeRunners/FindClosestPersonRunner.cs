@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.FindClosestPerson;
+using LeetCodeProblems.Dailies.FindClosestPerson;
+
+namespace LeetCodeRunners.FindClosestPerson;
 
 /// <summary>
 /// Runner class for the Find Closest Person problem as specified by

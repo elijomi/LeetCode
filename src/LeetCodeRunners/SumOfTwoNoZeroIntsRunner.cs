@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.SumOfTwoNoZeroInts;
+using LeetCodeProblems.Dailies.SumOfTwoNoZeroInts;
+
+namespace LeetCodeRunners.SumOfTwoNoZeroInts;
 
 /// <summary>
 /// https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers
@@ -7,14 +9,14 @@ public static class Runner
 {
     public static void Run()
     {
-        var solver = new Solution();
+        var solver = new SumOfTwoNoZeroIntsSolution();
 
         var tests = new[] { 2, 11 };
 
         int i = 1;
         foreach (var n in tests)
         {
-            var actual = solver.GetNoZeroIntegers(n);
+            int[] actual = solver.GetNoZeroIntegers(n);
 
             int sum = 0;
             for (int j = 0; j < actual.Length; j++)

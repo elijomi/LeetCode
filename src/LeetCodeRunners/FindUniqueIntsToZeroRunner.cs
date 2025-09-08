@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.FindUniqueIntsToZero;
+using LeetCodeProblems.Dailies.FindUniqueIntsToZero;
+
+namespace LeetCodeRunners.FindUniqueIntsToZero;
 
 /// <summary>
 /// https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero
@@ -7,7 +9,7 @@ public static class Runner
 {
     public static void Run()
     {
-        var solver = new Solution();
+        var solver = new FindUniqueIntsToZeroSolution();
 
         var tests = new[] { 5, 3, 1 };
 

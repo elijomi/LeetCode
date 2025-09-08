@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.MinOperationsToMakeZero;
+using LeetCodeProblems.Dailies.MinOperationsToMakeZero;
+
+namespace LeetCodeRunners.MinOperationsToMakeZero;
 
 /// <summary>
 /// https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero
@@ -7,7 +9,7 @@ public static class Runner
 {
     public static void Run()
     {
-        var solver = new Solution();
+        var solver = new MinOperationsToMakeZeroSolution();
 
         // Test cases
         var tests = new (int num1, int num2, int expected)[]

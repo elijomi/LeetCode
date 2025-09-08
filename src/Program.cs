@@ -1,0 +1,13 @@
+﻿//LeetCodeRunners.Sudoku.SudokuRunner.Run();
+//LeetCodeRunners.MaxAveragePassRatio.MaxAveragePassRatioRunner.Run();
+//LeetCodeRunners.WaysToPlacePeople.WaysToPlacePeopleRunner.Run();
+//LeetCodeRunners.FindClosestPerson.FindClosestPersonRunner.Run();
+//LeetCodeProblems.Top100Liked.LetterCombinationsOfAPhoneNumber.Runner.Run();
+//LeetCodeProblems.Top100Liked.GenerateParentheses.Runner.Run();
+//LeetCodeProblems.Top100Liked.CombinationSum.Runner.Run();
+//LeetCodeProblems.Top100Liked.Permutations.Runner.Run();
+//LeetCodeRunners.MinOperationsToMakeZero.Runner.Run();
+//LeetCodeRunners.MinOperationsToMakeArrayZero.Runner.Run();
+//LeetCodeRunners.FindUniqueIntsToZero.Runner.Run();
+//LeetCodeRunners.SumOfTwoNoZeroInts.Runner.Run();
+//LeetCodeProblems.Top100Liked.Subsets.Runner.Run();

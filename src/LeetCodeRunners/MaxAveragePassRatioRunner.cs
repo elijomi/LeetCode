@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.MaxAveragePassRatio;
+using LeetCodeProblems.Dailies.MaxAveragePassRatio;
+
+namespace LeetCodeRunners.MaxAveragePassRatio;
 
 /// <summary>
 /// Runner class for the Max Average Pass Ratio problem as specified by

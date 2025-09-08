@@ -3,7 +3,7 @@ namespace LeetCodeProblems.Dailies.FindUniqueIntsToZero;
 /// <summary>
 /// Given an integer n, return any array containing n unique integers such that they add up to 0.
 /// </summary>
-public class Solution
+public class FindUniqueIntsToZeroSolution
 {
     public int[] SumZero(int n)
     {

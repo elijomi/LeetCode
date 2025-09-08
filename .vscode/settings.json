@@ -1,6 +1,10 @@
 {
-    "dotnet.defaultSolution": "LeetCodeDailies.slnx",
-    "editor.quickSuggestions": true,
+    "dotnet.defaultSolution": "LeetCode.slnx",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
     "editor.suggestOnTriggerCharacters": true,
     "editor.inlineSuggest.enabled": false,
     "editor.parameterHints.enabled": true,

@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.MinOperationsToMakeArrayZero;
+using LeetCodeProblems.Dailies.MinOperationsToMakeArrayZero;
+
+namespace LeetCodeRunners.MinOperationsToMakeArrayZero;
 
 /// <summary>
 /// https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero
@@ -7,7 +9,7 @@ public static class Runner
 {
     public static void Run()
     {
-        var solver = new Solution();
+        var solver = new MinOperationsToMakeArrayZeroSolution();
 
         // Test cases
         var tests = new (int[][] queries, int expected)[]

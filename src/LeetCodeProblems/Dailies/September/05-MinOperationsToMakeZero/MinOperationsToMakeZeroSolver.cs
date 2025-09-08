@@ -12,7 +12,7 @@ namespace LeetCodeProblems.Dailies.MinOperationsToMakeZero;
 /// 1 <= num1 <= 10^9
 /// -109 <= num2 <= 10^9
 /// </summary>
-public class Solution
+public class MinOperationsToMakeZeroSolution
 {
     public int MakeTheIntegerZero(int num1, int num2)
     {

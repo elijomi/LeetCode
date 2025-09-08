@@ -8,7 +8,7 @@ namespace LeetCodeProblems.Dailies.SumOfTwoNoZeroInts;
 /// Constraints:
 /// 2 <= n <= 10^4
 /// </summary>
-public class Solution
+public class SumOfTwoNoZeroIntsSolution
 {
     private static bool HasZero(int number)
     {

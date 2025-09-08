@@ -1,4 +1,6 @@
-namespace LeetCodeProblems.Dailies.Sudoku;
+using LeetCodeProblems.Dailies.Sudoku;
+
+namespace LeetCodeRunners.Sudoku;
 
 /// <summary>
 /// Runner class for the Sudoku Solver problem as specified by

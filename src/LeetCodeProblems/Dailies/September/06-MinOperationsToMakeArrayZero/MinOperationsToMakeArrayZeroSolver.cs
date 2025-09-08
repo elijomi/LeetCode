@@ -17,7 +17,7 @@ namespace LeetCodeProblems.Dailies.MinOperationsToMakeArrayZero;
 /// queries[i] == [l, r]
 /// 1 <= l < r <= 10^9
 /// </summary>
-public class Solution
+public class MinOperationsToMakeArrayZeroSolution
 {
     public long MinOperations(int[][] queries)
     {
