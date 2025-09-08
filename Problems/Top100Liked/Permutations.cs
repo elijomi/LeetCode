@@ -1,5 +1,3 @@
-using System.Runtime.CompilerServices;
-
 namespace LeetCodeProblems.Top100Liked.Permutations;
 
 /// <summary>

@@ -1,4 +1,3 @@
-
 namespace LeetCodeProblems.Top100Liked.GenerateParentheses;
 
 /// <summary>
