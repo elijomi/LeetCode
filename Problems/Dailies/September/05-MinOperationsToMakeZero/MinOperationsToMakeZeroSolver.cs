@@ -9,8 +9,8 @@ namespace LeetCodeProblems.Dailies.MinOperationsToMakeZero;
 /// to 0, return -1.
 /// 
 /// Constraints:
-/// 1 <= num1 <= 109
-/// -109 <= num2 <= 109
+/// 1 <= num1 <= 10^9
+/// -109 <= num2 <= 10^9
 /// </summary>
 public class Solution
 {

@@ -18,7 +18,7 @@ public class WaysToPlacePeopleSolver
     /// Constraints as of Sep 3rd 2025:
     /// 2 <= n <= 1000
     /// points[i].length == 2
-    /// -109 <= points[i][0], points[i][1] <= 109
+    /// -10^9 <= points[i][0], points[i][1] <= 10^9
     /// All points[i] are distinct.
     /// </summary>
     public int NumberOfPairs(int[][] points)
