@@ -6,4 +6,7 @@
 //LeetCodeProblems.Top100Liked.GenerateParentheses.Runner.Run();
 //LeetCodeProblems.Top100Liked.CombinationSum.Runner.Run();
 //LeetCodeProblems.Top100Liked.Permutations.Runner.Run();
-LeetCodeProblems.Dailies.MinOperationsToMakeZero.Runner.Run();
+//LeetCodeProblems.Dailies.MinOperationsToMakeZero.Runner.Run();
+//LeetCodeProblems.Dailies.MinOperationsToMakeArrayZero.Runner.Run();
+//LeetCodeProblems.Dailies.FindUniqueIntsToZero.Runner.Run();
+LeetCodeProblems.Dailies.SumOfTwoNoZeroInts.Runner.Run();
