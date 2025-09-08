@@ -10,4 +10,4 @@
 //LeetCodeProblems.Dailies.MinOperationsToMakeArrayZero.Runner.Run();
 //LeetCodeProblems.Dailies.FindUniqueIntsToZero.Runner.Run();
 //LeetCodeProblems.Dailies.SumOfTwoNoZeroInts.Runner.Run();
-LeetCodeProblems.Top100Liked.NQueens.Runner.Run();
+LeetCodeProblems.Top100Liked.Subsets.Runner.Run();
