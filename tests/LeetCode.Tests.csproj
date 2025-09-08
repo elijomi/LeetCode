@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\LeetCode.csproj" />
+    <ProjectReference Include="..\src\LeetCode.csproj" />
   </ItemGroup>
 
 </Project>

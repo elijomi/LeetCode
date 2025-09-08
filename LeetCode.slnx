@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="src/LeetCode.csproj" />
-  <Project Path="tests/LeetCode.Tests/LeetCode.Tests.csproj" />
+  <Project Path="tests/LeetCode.Tests.csproj" />
 </Solution>
