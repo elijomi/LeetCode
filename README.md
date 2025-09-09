@@ -13,5 +13,6 @@ Personal repository for pushing code solutions to LeetCode problems. The goal is
   
 - `tests` — Main .NET test project
   - `Dailies` — Folder containing tests for daily LeetCode problems
+    - `<Month>` — Daily problem tests sorted under their respective month
   - `Top100Liked` — Folder containing tests for problems from the LeetCode collection 'Top 100 Liked'
   
