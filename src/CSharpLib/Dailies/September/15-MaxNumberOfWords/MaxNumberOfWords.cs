@@ -18,22 +18,28 @@ public class Solution
 {
     public int CanBeTypedWords(string text, string brokenLetters)
     {
-        HashSet<char> brokens = [.. brokenLetters];
+        bool[] brokens = new bool[26];
+        for (int i = 0; i < brokenLetters.Length; i++)
+        {
+            brokens[brokenLetters[i] - 'a'] = true;
+        }
+
         int words = 0;
         bool skip = false;
         for (int i = 0; i < text.Length; i++)
         {
             char letter = text[i];
-            if (brokens.Contains(letter))
+            if (letter != ' ' && brokens[letter - 'a'])
             {
                 skip = true;
                 continue;
             }
-            if (text[i] == ' ' || i == text.Length - 1)
+            if (letter == ' ' || i == text.Length - 1)
             {
                 words = skip ? words : words + 1;
                 skip = false;
             }
+
         }
 
         return words;
