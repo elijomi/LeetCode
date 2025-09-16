@@ -7,10 +7,10 @@ Personal repository for pushing code solutions to LeetCode problems. The goal is
 - Go 1.25.1
 
 ## Repository Layout
-- `src` — Main .NET project & go.mod
-  - `GoAlgos` — Folder containing Go solutions & tests
-    - `Dailies` — Folder containing solutions for daily LeetCode problems in Go
-    - `<Month>/<DD-ProblemName>/` — Example daily problem folder where DD is day of month
+- `src` — Main .NET project
+  - `GoAlgos` — Folder containing Go mod, solutions & tests
+    - `dailies` — Folder containing solutions for daily LeetCode problems in Go
+    - `<month>/<DD-problem_name>/` — Example daily problem folder where DD is day of month
   - `CSharpLib` — Folder containing C# solutions
     - `Dailies` — Folder containing solutions for daily LeetCode problems in C#
       - `<Month>/<DD-ProblemName>/` — Example daily problem folder where DD is day of month
