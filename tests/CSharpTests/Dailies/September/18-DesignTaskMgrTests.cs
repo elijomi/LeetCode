@@ -2,7 +2,7 @@
 
 namespace LeetCode.Tests.Dailies.September;
 
-public class TaskManager
+public class TaskManagerTests
 {
     [Fact]
     public void LeetCodeSample()
